@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEC096F41D067A3000DBD955 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC096F31D067A3000DBD955 /* AppDelegate.swift */; };
+		FEC096F61D067A3000DBD955 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC096F51D067A3000DBD955 /* ViewController.swift */; };
+		FEC096F91D067A3000DBD955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC096F71D067A3000DBD955 /* Main.storyboard */; };
+		FEC096FC1D067A3000DBD955 /* TujiNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEC096FA1D067A3000DBD955 /* TujiNote.xcdatamodeld */; };
+		FEC096FE1D067A3000DBD955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC096FD1D067A3000DBD955 /* Assets.xcassets */; };
+		FEC097011D067A3000DBD955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC096FF1D067A3000DBD955 /* LaunchScreen.storyboard */; };
+		FEC0970C1D067A3100DBD955 /* TujiNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC0970B1D067A3100DBD955 /* TujiNoteTests.swift */; };
+		FEC097171D067A3100DBD955 /* TujiNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC097161D067A3100DBD955 /* TujiNoteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEC097081D067A3100DBD955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEC096E81D067A3000DBD955 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEC096EF1D067A3000DBD955;
+			remoteInfo = TujiNote;
+		};
+		FEC097131D067A3100DBD955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEC096E81D067A3000DBD955 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEC096EF1D067A3000DBD955;
+			remoteInfo = TujiNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEC096F01D067A3000DBD955 /* TujiNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TujiNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC096F31D067A3000DBD955 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEC096F51D067A3000DBD955 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEC096F81D067A3000DBD955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEC096FB1D067A3000DBD955 /* TujiNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TujiNote.xcdatamodel; sourceTree = "<group>"; };
+		FEC096FD1D067A3000DBD955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEC097001D067A3000DBD955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEC097021D067A3000DBD955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEC097071D067A3100DBD955 /* TujiNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TujiNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC0970B1D067A3100DBD955 /* TujiNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TujiNoteTests.swift; sourceTree = "<group>"; };
+		FEC0970D1D067A3100DBD955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEC097121D067A3100DBD955 /* TujiNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TujiNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC097161D067A3100DBD955 /* TujiNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TujiNoteUITests.swift; sourceTree = "<group>"; };
+		FEC097181D067A3100DBD955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEC096ED1D067A3000DBD955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC097041D067A3100DBD955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC0970F1D067A3100DBD955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEC096E71D067A3000DBD955 = {
+			isa = PBXGroup;
+			children = (
+				FEC096F21D067A3000DBD955 /* TujiNote */,
+				FEC0970A1D067A3100DBD955 /* TujiNoteTests */,
+				FEC097151D067A3100DBD955 /* TujiNoteUITests */,
+				FEC096F11D067A3000DBD955 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEC096F11D067A3000DBD955 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEC096F01D067A3000DBD955 /* TujiNote.app */,
+				FEC097071D067A3100DBD955 /* TujiNoteTests.xctest */,
+				FEC097121D067A3100DBD955 /* TujiNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEC096F21D067A3000DBD955 /* TujiNote */ = {
+			isa = PBXGroup;
+			children = (
+				FEC096F31D067A3000DBD955 /* AppDelegate.swift */,
+				FEC096F51D067A3000DBD955 /* ViewController.swift */,
+				FEC096F71D067A3000DBD955 /* Main.storyboard */,
+				FEC096FD1D067A3000DBD955 /* Assets.xcassets */,
+				FEC096FF1D067A3000DBD955 /* LaunchScreen.storyboard */,
+				FEC097021D067A3000DBD955 /* Info.plist */,
+				FEC096FA1D067A3000DBD955 /* TujiNote.xcdatamodeld */,
+			);
+			path = TujiNote;
+			sourceTree = "<group>";
+		};
+		FEC0970A1D067A3100DBD955 /* TujiNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEC0970B1D067A3100DBD955 /* TujiNoteTests.swift */,
+				FEC0970D1D067A3100DBD955 /* Info.plist */,
+			);
+			path = TujiNoteTests;
+			sourceTree = "<group>";
+		};
+		FEC097151D067A3100DBD955 /* TujiNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEC097161D067A3100DBD955 /* TujiNoteUITests.swift */,
+				FEC097181D067A3100DBD955 /* Info.plist */,
+			);
+			path = TujiNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEC096EF1D067A3000DBD955 /* TujiNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC0971B1D067A3100DBD955 /* Build configuration list for PBXNativeTarget "TujiNote" */;
+			buildPhases = (
+				FEC096EC1D067A3000DBD955 /* Sources */,
+				FEC096ED1D067A3000DBD955 /* Frameworks */,
+				FEC096EE1D067A3000DBD955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TujiNote;
+			productName = TujiNote;
+			productReference = FEC096F01D067A3000DBD955 /* TujiNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEC097061D067A3100DBD955 /* TujiNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC0971E1D067A3100DBD955 /* Build configuration list for PBXNativeTarget "TujiNoteTests" */;
+			buildPhases = (
+				FEC097031D067A3100DBD955 /* Sources */,
+				FEC097041D067A3100DBD955 /* Frameworks */,
+				FEC097051D067A3100DBD955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEC097091D067A3100DBD955 /* PBXTargetDependency */,
+			);
+			name = TujiNoteTests;
+			productName = TujiNoteTests;
+			productReference = FEC097071D067A3100DBD955 /* TujiNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEC097111D067A3100DBD955 /* TujiNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC097211D067A3100DBD955 /* Build configuration list for PBXNativeTarget "TujiNoteUITests" */;
+			buildPhases = (
+				FEC0970E1D067A3100DBD955 /* Sources */,
+				FEC0970F1D067A3100DBD955 /* Frameworks */,
+				FEC097101D067A3100DBD955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEC097141D067A3100DBD955 /* PBXTargetDependency */,
+			);
+			name = TujiNoteUITests;
+			productName = TujiNoteUITests;
+			productReference = FEC097121D067A3100DBD955 /* TujiNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEC096E81D067A3000DBD955 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Kaling;
+				TargetAttributes = {
+					FEC096EF1D067A3000DBD955 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FEC097061D067A3100DBD955 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FEC096EF1D067A3000DBD955;
+					};
+					FEC097111D067A3100DBD955 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FEC096EF1D067A3000DBD955;
+					};
+				};
+			};
+			buildConfigurationList = FEC096EB1D067A3000DBD955 /* Build configuration list for PBXProject "TujiNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEC096E71D067A3000DBD955;
+			productRefGroup = FEC096F11D067A3000DBD955 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEC096EF1D067A3000DBD955 /* TujiNote */,
+				FEC097061D067A3100DBD955 /* TujiNoteTests */,
+				FEC097111D067A3100DBD955 /* TujiNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEC096EE1D067A3000DBD955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC097011D067A3000DBD955 /* LaunchScreen.storyboard in Resources */,
+				FEC096FE1D067A3000DBD955 /* Assets.xcassets in Resources */,
+				FEC096F91D067A3000DBD955 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC097051D067A3100DBD955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC097101D067A3100DBD955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEC096EC1D067A3000DBD955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC096F61D067A3000DBD955 /* ViewController.swift in Sources */,
+				FEC096FC1D067A3000DBD955 /* TujiNote.xcdatamodeld in Sources */,
+				FEC096F41D067A3000DBD955 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC097031D067A3100DBD955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC0970C1D067A3100DBD955 /* TujiNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC0970E1D067A3100DBD955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC097171D067A3100DBD955 /* TujiNoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEC097091D067A3100DBD955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEC096EF1D067A3000DBD955 /* TujiNote */;
+			targetProxy = FEC097081D067A3100DBD955 /* PBXContainerItemProxy */;
+		};
+		FEC097141D067A3100DBD955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEC096EF1D067A3000DBD955 /* TujiNote */;
+			targetProxy = FEC097131D067A3100DBD955 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEC096F71D067A3000DBD955 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC096F81D067A3000DBD955 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEC096FF1D067A3000DBD955 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC097001D067A3000DBD955 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEC097191D067A3100DBD955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEC0971A1D067A3100DBD955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEC0971C1D067A3100DBD955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TujiNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kaling.TujiNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEC0971D1D067A3100DBD955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TujiNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kaling.TujiNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FEC0971F1D067A3100DBD955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TujiNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kaling.TujiNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TujiNote.app/TujiNote";
+			};
+			name = Debug;
+		};
+		FEC097201D067A3100DBD955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TujiNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kaling.TujiNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TujiNote.app/TujiNote";
+			};
+			name = Release;
+		};
+		FEC097221D067A3100DBD955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TujiNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kaling.TujiNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TujiNote;
+			};
+			name = Debug;
+		};
+		FEC097231D067A3100DBD955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TujiNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kaling.TujiNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TujiNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEC096EB1D067A3000DBD955 /* Build configuration list for PBXProject "TujiNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC097191D067A3100DBD955 /* Debug */,
+				FEC0971A1D067A3100DBD955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC0971B1D067A3100DBD955 /* Build configuration list for PBXNativeTarget "TujiNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC0971C1D067A3100DBD955 /* Debug */,
+				FEC0971D1D067A3100DBD955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEC0971E1D067A3100DBD955 /* Build configuration list for PBXNativeTarget "TujiNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC0971F1D067A3100DBD955 /* Debug */,
+				FEC097201D067A3100DBD955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEC097211D067A3100DBD955 /* Build configuration list for PBXNativeTarget "TujiNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC097221D067A3100DBD955 /* Debug */,
+				FEC097231D067A3100DBD955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FEC096FA1D067A3000DBD955 /* TujiNote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FEC096FB1D067A3000DBD955 /* TujiNote.xcdatamodel */,
+			);
+			currentVersion = FEC096FB1D067A3000DBD955 /* TujiNote.xcdatamodel */;
+			path = TujiNote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FEC096E81D067A3000DBD955 /* Project object */;
+}
